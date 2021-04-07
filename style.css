@@ -1,0 +1,134 @@
+@charset "UTF-8";
+
+body,
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 0.95rem;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #003399;
+
+}
+
+.geral{
+    width: 100%;
+    margin: 0 auto;
+}
+
+.cabecalho{
+    background: #003399;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+}
+
+.menu li {
+    margin-left: 10px;
+}
+
+.menu li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    font-size: 1.2rem;
+}
+
+/*botão de pesquisar:  */
+
+.container {
+    width: 100%; /* define a largura do campo */ 
+    position: relative;  /* cria o contexto de posicionamento do botão */ 
+  }
+  input {width: 100%;} /* define a largura do campo igual a largura do container */
+  input,  button {padding: 10px;}
+  button {
+    position: absolute ;  
+    top: 0; 
+    right: 0;
+    /* posiciona o botão em relação ao container, mas
+    como o campo está exatamente contido no container
+    o posicionamento se dá também em relação ao campo */
+  }
+
+
+.principal{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    justify-content: center;
+}
+
+.principal > div{
+    flex-grow: 0;
+    padding: 20px;
+    margin: 20px;
+}
+
+.conteudo1{
+    width: 250px;
+}
+
+.conteudo2{  
+    width: 650px;
+}
+
+.news{
+    max-width: 640px;
+    flex-direction: column;
+}
+
+.news > div{
+    border: 0.5px solid #003399;
+    margin: 5px;
+    flex-grow: 1;
+}
+
+.pnew{
+    max-height: 170px;
+    border: 0px #000000;
+}
+
+.conteudo3{
+    width: 120px;
+}
+
+.rodape{
+    background: turquoise;
+    clear: both;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 20px;
+}
+
+.menuf{
+    display: flex;
+}
+
+.menuf li{
+    margin-left: 10px;
+}
+
+.menuf li a{
+    display: block;
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+}
