@@ -1,5 +1,6 @@
 @charset "UTF-8";
 
+
 body,
 ul,
 li {
@@ -154,13 +155,13 @@ a {
 .pnew{
     height: 170px;
     background-image: url(imagens/dumaup.jpg);
+    
 }
 
 .pnew > a{
-    float: right;
-    font-size: 2rem; color: #000;
-    padding-top: 60px;
-    padding-left: 380px;
+    font-size: 2rem;
+    padding-bottom: 120px;
+    padding-right: 610px;
     
 }
 
